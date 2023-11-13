@@ -3,7 +3,6 @@ import tensorflow as tf
 import torch
 import os, sys
 from utils import process_SG as process
-from utils.faiss_rerank import compute_jaccard_distance
 from tensorflow.python.layers.core import Dense
 from sklearn.preprocessing import label_binarize
 from sklearn.cluster import DBSCAN
